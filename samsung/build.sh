@@ -42,6 +42,10 @@ echo -e "${txtgrn}Setting up Build Environment...${txtrst}"
 . build/envsetup.sh
 lunch ${lunch}
 
+# Get Prebuilts
+echo -e "${txtgrn}Getting Prebuilts...${txtrst}"
+vendor/cm/get-prebuilts
+
 # Start the Build
 case "$ADDITIONAL" in
 	kernel)
