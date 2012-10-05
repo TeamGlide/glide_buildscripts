@@ -1,0 +1,7 @@
+Glide Buildscrips
+
+To build after repo sync simply type
+
+   . build.sh glide
+
+Done! it wuill build all the way to a flashable zip!
